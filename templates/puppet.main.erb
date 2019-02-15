@@ -1,6 +1,7 @@
 # Manged by puppet - do not modify
 
 [main]
+  codedir = /etc/puppetlabs/code
 <% if @ca_server and !@ca_server.empty? -%>
   # Use specified CA server
   ca_server = <%= @ca_server %>
